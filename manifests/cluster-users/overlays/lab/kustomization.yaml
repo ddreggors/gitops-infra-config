@@ -1,0 +1,12 @@
+bases:
+- ../../base
+
+namespace: openshift-config
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+patchesStrategicMerge:
+  - cluster-role-bindings.yaml
+  - lab-admins.yaml
+  - htpass-secret.yaml

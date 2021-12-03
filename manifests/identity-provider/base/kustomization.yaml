@@ -1,0 +1,6 @@
+generatorOptions:
+  disableNameSuffixHash: true
+
+resources:
+- oauth-cr.yaml
+#- idp-sealed-secret.yaml

@@ -1,0 +1,7 @@
+generatorOptions:
+  disableNameSuffixHash: true
+
+resources:
+  - cluster-role-bindings.yaml
+  - lab-admins.yaml
+  - htpass-secret.yaml

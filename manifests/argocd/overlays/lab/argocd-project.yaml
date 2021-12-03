@@ -1,0 +1,9 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: project
+  namespace: argocd
+spec:
+  description: project
+  sourceRepos:
+    - 'ssh://git@gitlab.consulting.redhat.com:2222/dev/ansible_argocd.git'
