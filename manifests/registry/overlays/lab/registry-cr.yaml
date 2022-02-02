@@ -7,5 +7,6 @@ spec:
    replicas: 2
    logging: 2
    storage:
-     pvc:
-       claim: image-registry-pvc
+     emptyDir: {}
+#     pvc:
+#       claim: image-registry-pvc

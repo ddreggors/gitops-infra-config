@@ -9,7 +9,7 @@ spec:
     server: 'https://api.managed.foo.bar:6443'
   source:
     path: manifests/migrate-router/overlays/dev
-    repoURL: 'ssh://git@gitlab.consulting.redhat.com:2222/dev/ansible_argocd.git'
+    repoURL: 'https://github.com/ddreggors/gitops-infra-config.git'
     targetRevision: 'master'
   project: default
   syncPolicy:
